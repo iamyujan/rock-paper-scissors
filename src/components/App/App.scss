@@ -1,0 +1,35 @@
+body {
+    background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+}
+.Btn {
+    background-color: #fff;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    border: 2.5rem solid;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background-color: none;
+    }
+    @screen md {
+        width: 20rem;
+        height: 20rem;
+    }
+  }
+  
+.Btn--rock {
+    border-color: hsl(349, 70%, 56%);
+    box-shadow: 0.05rem 0.8rem hsl(349, 65%, 40%), 0 0.8rem rgba(172, 177, 203, 0.4) inset;
+}
+
+.Btn--scissors {
+    border-color: hsl(40, 84%, 53%);
+    box-shadow: 0.05rem 0.8rem hsl(39, 88%, 38%), 0 0.8rem rgba(172, 177, 203, 0.4) inset;
+}
+
+.Btn--paper {
+    border-color: hsl(230, 89%, 65%);
+    box-shadow: 0.05rem 0.8rem hsl(230, 55%, 47%), 0 0.8rem rgba(172, 177, 203, 0.4) inset;
+}
